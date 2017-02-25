@@ -1,0 +1,40 @@
+/*
+Theme Name: Trendy Travel Child
+Theme URI: http://www.wedesignthemes.com/themes/trendy-travel/
+Template: trendytravel
+Version: 1.6
+Author:designthemes
+Author URI: http://themeforest.net/user/designthemes/
+Description: Child Theme for Trendy Travel WordPress Theme.
+Tags: right-sidebar,two-columns, three-columns, four-columns, custom-menu, theme-options, translation-ready, sticky-post
+Text Domain: iamd_text_domain
+*/
+@import url("../trendytravel/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+/* Cart icon header */
+.cart-contents:before {
+    font-family:WooCommerce;
+    content: "\e01d";
+    font-size:28px;
+    margin-top:10px;
+    font-style:normal;
+    font-weight:400;
+    padding-right:5px;
+    vertical-align: bottom;
+}
+.cart-contents:hover {
+    text-decoration: none;
+}
+.cart-contents-count {
+    color: #fff;
+    background-color: #2ecc71;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 1px 6px;
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: top;
+}
